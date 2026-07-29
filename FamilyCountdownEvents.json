@@ -1,0 +1,104 @@
+[
+    {
+        "label": "Charlie Birthday",
+        "targetDate": "2026-11-20T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Hannah Birthday",
+        "targetDate": "2026-01-07T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Nevaeh Birthday",
+        "targetDate": "2026-01-12T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Nora Birthday",
+        "targetDate": "2026-01-24T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Maggie Birthday",
+        "targetDate": "2026-02-13T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "William Birthday",
+        "targetDate": "2026-03-04T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Charleigh Birthday",
+        "targetDate": "2026-04-13T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Kinsley Birthday",
+        "targetDate": "2026-05-04T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Bennett Birthday",
+        "targetDate": "2026-07-09T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "811!!",
+        "targetDate": "2026-08-11T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Elijah Birthday",
+        "targetDate": "2026-08-29T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Brendan Birthday",
+        "targetDate": "2026-09-16T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Amelia Birthday",
+        "targetDate": "2026-09-22T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Brandie Birthday",
+        "targetDate": "2026-10-27T00:00:00-04:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "NCL Joy Panama",
+        "targetDate": "2026-10-07T00:00:00-04:00",
+        "pinned": true, 
+        "repeats": false
+    },
+    {
+        "label": "Grandpa Retire",
+        "targetDate": "2029-01-01T00:00:01-05:00",
+        "pinned": true,
+        "repeats": false
+    },
+    {
+        "label": "Jasmine Birthday",
+        "targetDate": "2026-11-08T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    }
+]

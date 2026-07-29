@@ -1,0 +1,39 @@
+name: FamilyCountdown
+options:
+  bundleIdPrefix: com.dialogs
+  deploymentTarget:
+    iOS: "18.0"
+  developmentLanguage: en
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    GENERATE_INFOPLIST_FILE: NO
+targets:
+  FamilyCountdown:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: FamilyCountdown
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dialogs.FamilyCountdown
+        INFOPLIST_FILE: FamilyCountdown/Info.plist
+        TARGETED_DEVICE_FAMILY: "2"        # iPad only
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_EMIT_LOC_STRINGS: YES
+  FamilyCountdownTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: FamilyCountdownTests
+    dependencies:
+      - target: FamilyCountdown
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dialogs.FamilyCountdownTests
+        GENERATE_INFOPLIST_FILE: YES

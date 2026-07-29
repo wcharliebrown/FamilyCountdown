@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+
+# Build output
+build/
+DerivedData/
+*.xcresult
+
+# macOS
+.DS_Store
+
+# Xcode user-specific
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# XcodeGen generates the project from project.yml; keep it out of source control.
+# (Delete the next line if you'd rather commit the generated project.)
+FamilyCountdown.xcodeproj/

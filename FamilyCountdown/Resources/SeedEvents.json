@@ -1,0 +1,44 @@
+[
+    {
+        "label": "Disney Trip",
+        "targetDate": "2026-12-20T00:00:00-06:00",
+        "pinned": true,
+        "repeats": false
+    },
+    {
+        "label": "Grandpa Retires",
+        "targetDate": "2030-01-01T00:00:00-06:00",
+        "pinned": true,
+        "repeats": false
+    },
+    {
+        "label": "Emma Birthday",
+        "targetDate": "2026-08-15T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Liam Birthday",
+        "targetDate": "2026-09-28T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Olivia Birthday",
+        "targetDate": "2026-11-11T00:00:00-06:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Noah Birthday",
+        "targetDate": "2027-01-18T00:00:00-06:00",
+        "pinned": false,
+        "repeats": true
+    },
+    {
+        "label": "Ava Birthday",
+        "targetDate": "2027-03-22T00:00:00-05:00",
+        "pinned": false,
+        "repeats": true
+    }
+]
