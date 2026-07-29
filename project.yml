@@ -25,6 +25,7 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: 54MH33556M        # same team as AutoSnooze (owns com.dialogs.*)
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO   # iPad-only; don't build the Mac .pkg companion
         SWIFT_EMIT_LOC_STRINGS: YES
   FamilyCountdownTests:
     type: bundle.unit-test
