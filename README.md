@@ -8,6 +8,8 @@ roll to next year and one-time events drop off. US holidays (New Year's, Easter,
 July 4th, Thanksgiving, Christmas) are added automatically. The list is edited
 and stored on-device — no server or password.
 
+![FamilyCountdown board on iPad — split-flap countdowns to Disney Trip, Grandpa Retires, birthdays, and US holidays](docs/screenshot.png)
+
 ## Build & run
 
 The Xcode project is generated with [XcodeGen](https://github.com/yonasstephen/xcodegen)
@@ -52,7 +54,7 @@ FamilyCountdownTests/   holiday math, roll-forward, ARRIVED, store round-trip
   the bundled `SeedEvents.json`; the JSON format matches the original web page so
   files interchange.
 - **Data model**: `label`, `targetDate` (ISO-8601 with tz offset), `pinned`
-  (sorts to the bottom), `repeats` (rolls to next year after arriving).
+  (sorts to the top), `repeats` (rolls to next year after arriving).
 - **Time zone**: settable in the editor (gear → Display → Time Zone). Defaults to
   **Automatic**, which follows the device (kept current from the network). The zone
   controls day boundaries (ARRIVED / roll-forward), holiday midnights, and the
