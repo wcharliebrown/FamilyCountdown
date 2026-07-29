@@ -48,8 +48,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SplitFlapTVBlackLine-Regular.ttf</string>
-		<string>SplitFlapTV-Regular.ttf</string>
+		<string>JetBrainsMono-ExtraBold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -9,17 +9,15 @@ struct EventRow: View {
 
     var body: some View {
         HStack(spacing: 20) {
-            Text(event.label)
-                .font(.custom(FlipMetrics.fontName, size: metrics.fontSize))
-                .foregroundStyle(.white)
-                .lineLimit(1)
+            TileText(text: event.label, metrics: metrics)
 
             Spacer(minLength: 12)
 
             if event.arrived {
-                Text("ARRIVED")
-                    .font(.custom(FlipMetrics.fontName, size: metrics.fontSize))
-                    .foregroundStyle(Color(red: 1, green: 0, blue: 0))   // #ff0000
+                TileText(text: "ARRIVED", metrics: metrics,
+                         tileTop: FlipMetrics.arrivedTile,
+                         tileBottom: FlipMetrics.arrivedTile,
+                         glyph: .white)
             } else {
                 FlipClock(remaining: event.remaining, metrics: metrics)
             }

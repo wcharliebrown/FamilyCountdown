@@ -48,8 +48,11 @@ FamilyCountdownTests/   holiday math, roll-forward, ARRIVED, store round-trip
   the old top leaf folds down (0°→-90°) and the new bottom leaf drops and bounces
   to settle, 800 ms with an ease-out-bounce curve, staggered 50 ms right-to-left
   across each digit group.
-- **Font**: bundled "Split-Flap TV BlackLine" (PostScript name
-  `SplitFlapTVBlackLine-Regular`) renders each glyph as a flap tile.
+- **Font & tiles**: the split-flap tiles are drawn in SwiftUI (white flap, dark
+  glyph, hairline seam, rounded corners); the character itself is
+  [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) (SIL OFL, bundled
+  with its `JetBrainsMono-OFL.txt` license). Names and digits share the same
+  `TileFace`, so they read as identical physical flaps.
 - **Storage**: `Documents/FamilyCountdownEvents.json`, seeded on first launch from
   the bundled `SeedEvents.json`; the JSON format matches the original web page so
   files interchange.

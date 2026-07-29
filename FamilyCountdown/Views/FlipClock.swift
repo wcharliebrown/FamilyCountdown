@@ -24,6 +24,25 @@ struct FlipGroup: View {
     }
 }
 
+/// Renders a string as a row of resting flap tiles — used for event names and
+/// the ARRIVED word so they match the split-flap digits.
+struct TileText: View {
+    let text: String
+    let metrics: FlipMetrics
+    var tileTop: Color = FlipMetrics.cardTop
+    var tileBottom: Color = FlipMetrics.cardBottom
+    var glyph: Color = FlipMetrics.glyphColor
+
+    var body: some View {
+        HStack(spacing: metrics.fontSize * FlipMetrics.intraSpacingRatio) {
+            ForEach(Array(text.enumerated()), id: \.offset) { _, ch in
+                TileFace(char: ch, metrics: metrics,
+                         tileTop: tileTop, tileBottom: tileBottom, glyph: glyph)
+            }
+        }
+    }
+}
+
 /// Column labels (DAYS / HOURS / MINUTES / SECONDS) sized and spaced to sit
 /// directly over each digit group of a FlipClock.
 struct ClockHeader: View {
