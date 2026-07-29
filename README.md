@@ -15,6 +15,14 @@ between zones, and add / edit / delete events.
 
 ![FamilyCountdown editor — Display settings (Time Zone, Shift Event Times) and the editable event list](docs/settings.png)
 
+**Time Zone** picks which zone drives day boundaries (defaults to Automatic, following the device):
+
+![FamilyCountdown Time Zone picker — searchable list with an Automatic option](docs/timezone.png)
+
+**Shift Event Times** re-stamps every saved event's wall-clock reading from one zone to another, with a live preview:
+
+![FamilyCountdown Shift Event Times — From/To zone pickers and a before/after preview](docs/shift.png)
+
 ## Build & run
 
 The Xcode project is generated with [XcodeGen](https://github.com/yonasstephen/xcodegen)
