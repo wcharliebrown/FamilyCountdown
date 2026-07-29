@@ -10,6 +10,11 @@ and stored on-device — no server or password.
 
 ![FamilyCountdown board on iPad — split-flap countdowns to Disney Trip, Grandpa Retires, birthdays, and US holidays](docs/screenshot.png)
 
+The gear opens the editor: set the display time zone, shift saved event times
+between zones, and add / edit / delete events.
+
+![FamilyCountdown editor — Display settings (Time Zone, Shift Event Times) and the editable event list](docs/settings.png)
+
 ## Build & run
 
 The Xcode project is generated with [XcodeGen](https://github.com/yonasstephen/xcodegen)
