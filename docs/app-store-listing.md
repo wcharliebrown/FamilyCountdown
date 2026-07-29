@@ -57,12 +57,10 @@ Secondary: Utilities
 Data Not Collected — the app stores all events locally on device and makes no
 network requests, collects no data, and has no third-party SDKs.
 
-## Support URL (REQUIRED — action needed)
-You must supply a publicly reachable URL. The GitHub repo is private, so it
-won't work. Options:
-• A simple page on your dev site (e.g. https://cbdev.dialogs2.com/familycountdown)
-• Make the GitHub repo public and use its URL
-• A one-page site / Notion / GitHub Pages with a contact email
+## Support URL (REQUIRED)
+https://github.com/wcharliebrown/FamilyCountdown
+(The repo is now public, so this works as a support URL. For a friendlier
+support experience you could later add a dedicated page with a contact email.)
 
 ## Marketing URL (optional)
 (leave blank or point at a landing page)
@@ -80,7 +78,13 @@ events plus holidays.
 Free (no in-app purchases).
 
 ---
-Screenshots: App Store requires exact iPad dimensions (e.g. 13" iPad Pro
-landscape 2752×2064, or 12.9" 2732×2048). The images in docs/ are cropped to
-2064×1580 for the README and are NOT valid for upload — see the note from the
-assistant on generating spec-sized captures.
+## Screenshots (ready to upload)
+Spec-compliant **2752×2064** (13" iPad Pro landscape) captures are in
+`docs/store/`:
+1. `01-board.png` — the countdown board (hero shot, includes the red ARRIVED)
+2. `02-editor.png` — the editor / settings sheet
+3. `03-timezone.png` — the Time Zone picker
+4. `04-shift.png` — Shift Event Times
+
+Upload these under the **13-inch iPad Pro** display size in App Store Connect.
+(The `docs/*.png` images are the smaller README versions — don't upload those.)
